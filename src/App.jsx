@@ -132,18 +132,18 @@ const App = () => {
 
       {/* GitHub Stats */}
       <section className="github-stats">
-        <h2>📊 GitHub Stats</h2>
-        <div className="stats">
-          <a href="https://github.com/anishlakhkar">
-            <img src="https://github-readme-stats.vercel.app/api?username=anishlakhkar&show_icons=true&theme=tokyonight" alt="GitHub Stats" />
-          </a>
-          <a href="https://github.com/anishlakhkar">
-            <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anishlakhkar&layout=compact&theme=dark" alt="Top Languages" />
-          </a>
-          <a href="https://github.com/anishlakhkar">
-            <img src="https://streak-stats.demolab.com/?user=anishlakhkar&theme=merko" alt="GitHub Streak" />
-          </a>
-        </div>
+      <h2>📊 GitHub Stats</h2>
+      <div className="stats">
+       <a href="https://github.com/anishlakhkar">
+      <img src="https://github-readme-stats.vercel.app/api?username=anishlakhkar&show_icons=true&theme=tokyonight" alt="GitHub Stats" />
+       </a>
+       <a href="https://github.com/anishlakhkar">
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anishlakhkar&layout=compact&theme=dark" alt="Top Languages" />
+    </a>
+    <a href="https://github.com/anishlakhkar">
+      <img src="https://streak-stats.demolab.com/?user=anishlakhkar&theme=merko" alt="GitHub Streak" />
+    </a>
+  </div>
       </section>
 
        {/* LeetCode Stats */}
@@ -158,5 +158,6 @@ const App = () => {
     </div>
   );
 };
+//ansih
 
 export default App;

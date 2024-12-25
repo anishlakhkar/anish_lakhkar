@@ -110,6 +110,19 @@ h2 {
   margin-top: 20px;
 }
 
+.github-stats .stats img {
+  max-width: 100%; /* Ensures the images scale down properly */
+  height: auto; /* Maintains aspect ratio */
+  width: 300px; /* Default width for larger screens */
+}
+
+@media (max-width: 600px) {
+  .github-stats .stats img {
+    width: 100%; /* Full width for small screens */
+  }
+}
+
+
 /* LeetCode Stats Section */
 .leetcode-stats {
   margin-top: 40px;
