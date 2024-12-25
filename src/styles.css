@@ -1,0 +1,149 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  background-color: #0d1117; /* Dark mode background */
+  color: #c9d1d9; /* Light gray text for contrast */
+}
+
+.app {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header Section */
+.header {
+  text-align: center;
+  background-color: #161b22; /* Dark header background */
+  color: #ffffff; /* White text */
+  padding: 30px 20px;
+  border-radius: 18px;
+}
+
+.header h1 span {
+  color: #58a6ff; /* Bright blue for emphasis */
+}
+
+.header p {
+  margin: 10px 0;
+}
+
+/* Section Styling */
+section {
+  margin-top: 40px;
+  padding: 20px;
+  background: #161b22; /* Dark section background */
+  border: 2px solid #30363d; /* Border for section separation */
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+  color: #e3e8ef; /* Dark white headings */
+  margin-bottom: 15px;
+}
+
+/* Tech Stack Icons */
+.icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.icons img {
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+
+.icons img:hover {
+  transform: scale(1.1);
+}
+
+/* Projects, Experience, Fun Facts Lists */
+.projects ul,
+.experience ul,
+.fun-facts ul {
+  list-style: none;
+  padding: 0;
+}
+
+.projects ul li,
+.experience ul li,
+.fun-facts ul li {
+  margin-bottom: 15px;
+}
+
+.projects ul li a {
+  color: #58a6ff; /* Bright blue links */
+  text-decoration: none;
+}
+
+.projects ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Social Links */
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-links img {
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+
+.social-links img:hover {
+  transform: scale(1.1);
+}
+
+/* GitHub Stats Section */
+.github-stats .stats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+/* LeetCode Stats Section */
+.leetcode-stats {
+  margin-top: 40px;
+  padding: 20px;
+  background: #161b22; /* Same dark background as other sections */
+  border: 2px solid #30363d; /* Border matching other sections */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5); /* Slight shadow for depth */
+}
+
+.leetcode-stats h2 {
+  color: #e3e8ef; /* Heading color consistent with other sections */
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.leetcode-stats p {
+  color: #c9d1d9; /* Text color matching the theme */
+  font-size: 1rem;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.leetcode-stats p span {
+  color: #58a6ff; /* Highlight stats in bright blue for emphasis */
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px 0;
+  font-size: 0.9rem;
+  color: #8b949e; /* Muted text color for footer */
+  border-top: 1px solid #30363d;
+}
